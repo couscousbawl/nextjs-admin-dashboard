@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='bg-gray-100 min-h-screen'>
         <Sidebar>{children}</Sidebar>
       </body>
     </html>
